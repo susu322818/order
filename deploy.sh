@@ -10,8 +10,7 @@
 
 ### base 函数
 
-git init /root/.jenkins/workspace/DeployOrder/order
-git clone git@github.com:susu322818/order.git /root/.jenkins/workspace/DeployOrder/order
+
 
 killTomcat()
 {
