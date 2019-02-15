@@ -9,6 +9,10 @@
 # export TOMCAT_APP_PATH=tomcat在部署机器上的路径
 
 ### base 函数
+
+git init /root/.jenkins/workspace/DeployOrder/order
+git clone git@github.com:susu322818/order.git /root/.jenkins/workspace/DeployOrder/order
+
 killTomcat()
 {
     pid=`ps -ef|grep tomcat|grep java|awk '{print $2}'`
